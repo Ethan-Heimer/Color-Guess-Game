@@ -54,7 +54,7 @@ const round =
     },
 
     _setUi: (value) => {
-        roundEl.textContent = `Round: ${value} / ${numberOfRounds}`;
+        roundEl.textContent = `Round: ${value} / 10`;
 
         if(value <= 0){
             roundEl.style.display = "none";
